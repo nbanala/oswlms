@@ -55,7 +55,7 @@
                     </div>
 
                     <div class="form-group">
-                        {!! Form::label(Skills:') !!}
+                        {!! Form::label('Skills:') !!}
                         &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                         <input type="checkbox" name="skill1" <?php if (isset($skill1) && $skill1=="Icer") echo "checked";?> value="Icer"{{$employee->skill1 == 'Icer' ? 'checked' : ''}}>Icer
                         &nbsp&nbsp&nbsp
